@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 #read csv file
-amazon_reviews_read = pd.read_csv('C:/Users/mouni/Downloads/Thesis Codes/data.csv')
+amazon_reviews_read = pd.read_csv('data.csv')
 
 #change column name
 amazon_reviews = amazon_reviews_read.rename(columns = {"reviews.text":"reviews",
